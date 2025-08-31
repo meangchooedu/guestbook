@@ -4,7 +4,7 @@ ARG VERSION
 
 COPY target/guestbook-0.0.1-SNAPSHOT.jar /app/guestbook.jar
 
-LABEL maintainer="HwanYeoul Jeong<coordinatorj@jadecross.com>" \
+LABEL maintainer="meangchoo.edu" \
       title="Guestbook App" \
       version="$VERSION" \
       description="This image is guestbook service"
